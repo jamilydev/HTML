@@ -1,0 +1,98 @@
+<HTML>
+		<HEAD>
+			<TITLE>
+				formulario
+			</TITLE>
+		</HEAD>
+		<BODY>
+			<form method="post" action="mailto:jamilyvg260207@gmail.com" >
+				<div>
+					<b>Nome:</b>
+					<br>
+					<input size="50" type="text"  name="usuario_nome" />
+					<br><br>
+
+					<b>telefone fixo:</b>
+					<br>
+					<input size="50" type="text"  name="usuario_telefonefixo" />
+					<br><br>
+					<b>celular:</b>
+					<br>
+					<input size="50" type="text"  name="usuario_celular" />
+					<br><br>
+				
+					<b>endereço</b>
+					<br>
+					<input size="50"  type="text"  name="usuario_endereco" />
+					<br><br>
+					<b>cidade</b>
+					<br>
+					<input size="50"  type="text"  name="usuario_cidade" />
+					<br><br>
+				</div>
+				
+			
+				<div>
+					<b>Estado<b>
+					<br>
+					<SELECT MULTIPLE NAME="Estados">
+						<OPTION SELECTED VALUE="AC"> Acre
+						<OPTION VALUE="AL"> Alagoas	
+						<OPTION VALUE="AP"> Amapá
+						<OPTION VALUE="AM"> Amazonas
+						<OPTION VALUE="BA"> Bahia
+						<OPTION VALUE="CE"> Ceara
+						<OPTION VALUE="DF"> Distrito federal
+						<OPTION VALUE="ES"> Espirito Santo
+						<OPTION VALUE="GO"> Goiás
+						<OPTION VALUE="MT"> Mato Grosso	
+						<OPTION VALUE="MS"> Mato Grosso do Sul	
+						<OPTION VALUE="MA"> Maranhão
+						<OPTION VALUE="MG"> Minas Gerais
+						<OPTION VALUE="PA"> Para
+						<OPTION VALUE="PB"> Paraiba
+						<OPTION VALUE="PR"> Paraná
+						<OPTION VALUE="PE"> Pernambuco
+						<OPTION VALUE="PI"> Piaui
+						<OPTION VALUE="RJ"> Rio de Janeiro
+						<OPTION VALUE="RN"> Rio Grande Do Norte
+						<OPTION VALUE="RS"> Rio Grande Do Sul
+						<OPTION VALUE="RO"> Rondonia
+						<OPTION VALUE="RR"> Roraima
+						<OPTION VALUE="SC"> Santa Catarina
+						<OPTION VALUE="SP"> Sao Paulo
+						<OPTION VALUE="RR"> Sergipe
+						<OPTION VALUE="TO"> Tocantins
+					</SELECT>
+					<br><br>
+					
+				<div>
+					<b>Sexo</b>
+					<br>
+					<input size="50"  type="radio"  name="sexo" value= feminino /> feminino<p>
+					<input size="50"  type="radio"  name="sexo" value= masculino /> masculino<p>
+				</div>
+				</div>
+				<div>
+					<b>Mensagem:</b>
+					<br>
+					<textarea    name="usuario_msg" cols=50 rows=1> texto</textarea>
+					<br><br>
+				</div>
+					<b>E-mail:</b>
+					<br>
+					<input size="50" type="text"  name="usuario_email" />
+					<br><br>
+					<b>Senha:</b>
+					<br>
+					<input id="senhaUsuario" type="password" size="10" />
+					<br><br>
+				</div>
+
+				<div class="button">
+					<button type="submit">Enviar sua mensagem</button>
+					
+					<input type="reset" value="limpar">
+				</div>
+</form>
+</BODY>
